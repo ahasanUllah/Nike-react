@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;700;900&display=swap");
+
+* {
+  font-family: "Bebas Neue", cursive;
+  font-family: "Roboto", sans-serif;
+}
+.lightPinkBg {
+  background-color: #fff9f4;
+}
+.hero-heading {
+  font-family: "bebas Neue";
+  font-weight: 700;
+  font-size: calc(60px + 1vw);
+  color: #fa804c;
+}
+.section-heading {
+  font-family: "bebas Neue";
+  font-weight: 700;
+  font-size: 48px;
+  color: #363958;
+}
+.price {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  color: #fa804c;
+}
+.orange {
+  color: #fa804c;
+}
+.deep-purple {
+  color: #363958;
+}
+.text-width {
+  max-width: 400px;
+}
+.purple-background {
+  background-color: #3543bc;
+}
+.card-min-height {
+  min-vh: 20;
+}
+.imagewh {
+  width: 334px;
+  height: 327px;
+}
+.card-background {
+  background-color: #f1f1f1;
+}
+.icon-size {
+  width: 78px;
+  height: 82px;
+}

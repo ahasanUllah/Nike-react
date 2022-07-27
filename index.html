@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Nike React</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <!-- Navebar -->
+      <nav class="navbar navbar-expand-lg lightPinkBg">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="icons/Logo.png" alt="" width="290" height="39" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- Nav Links -->
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item pe-4 fw-semibold">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item pe-4 fw-semibold">
+                <a class="nav-link" href="#">Product</a>
+              </li>
+              <li class="nav-item pe-4 fw-semibold">
+                <a class="nav-link" href="#">About us</a>
+              </li>
+              <li class="nav-item fw-semibold">
+                <a class="nav-link">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Hero -->
+      <section class="py-5 lightPinkBg">
+        <div class="container">
+          <div
+            class="row align-items-center flex-column flex-md-row-reverse justify-content-around"
+          >
+            <div class="col-md-4">
+              <h1 class="text-width">
+                <span class="hero-heading"> Nike React</span>
+                <span class="hero-heading deep-purple">Infinity Run 2</span>
+              </h1>
+              <p class="5text-width py-3">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </p>
+              <button
+                class="btn btn-primary btn-lg text-light purple-background px-5 py-3"
+              >
+                <i class="bi bi-cart-fill"></i> Buy Now
+              </button>
+            </div>
+            <div class="col-md-5">
+              <img src="images/hero.png" alt="" class="img-fluid" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <!-- Casual shoes -->
+      <section class="my-5 py-5">
+        <div class="container">
+          <h2 class="section-heading pb-5">Casual Shoes</h2>
+          <div class="row g-4">
+            <div class="col-md-6 col-xl-4">
+              <!-- Card 1 -->
+              <div class="card p-3 rounded-4 shadow-sm border-0">
+                <div class="card-background rounded-4">
+                  <img
+                    src="images/shoe-1.png"
+                    class="card-img-top imagewh"
+                    alt="..."
+                  />
+                </div>
+                <div class="card-body">
+                  <h1 class="card-title fw-bold fs-3">Nike Shoes</h1>
+                  <p class="card-text pt-3">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center pb-3 pt-3"
+                  >
+                    <h1 class="price">$238</h1>
+                    <button
+                      class="btn btn-primary text-light purple-background px-5 py-3"
+                    >
+                      <i class="bi bi-cart-fill"></i> Buy Now
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-xl-4">
+              <!-- Card 2 -->
+              <div class="card p-3 rounded-4 shadow-sm border-0">
+                <div class="card-background rounded-4">
+                  <img
+                    src="images/shoe-2.png"
+                    class="card-img-top imagewh"
+                    alt="..."
+                  />
+                </div>
+                <div class="card-body">
+                  <h1 class="card-title fw-bold fs-3">Sneakers Skate Shoe</h1>
+                  <p class="card-text pt-3">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center pb-3 pt-3"
+                  >
+                    <h1 class="price">$238</h1>
+                    <button
+                      class="btn btn-primary text-light purple-background px-5 py-3"
+                    >
+                      <i class="bi bi-cart-fill"></i> Buy Now
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-xl-4">
+              <!-- Card 3 -->
+              <div class="card p-3 rounded-4 shadow-sm border-0">
+                <div class="card-background rounded-4">
+                  <img
+                    src="images/shoe-3.png"
+                    class="card-img-top imagewh"
+                    alt="..."
+                  />
+                </div>
+                <div class="card-body">
+                  <h1 class="card-title fw-bold fs-3">
+                    Sneakers Basketball shoe
+                  </h1>
+                  <p class="card-text pt-3">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center pt-3 pb-3"
+                  >
+                    <h1 class="price">$250</h1>
+                    <button
+                      class="btn btn-primary text-light purple-background px-5 py-3"
+                    >
+                      <i class="bi bi-cart-fill"></i> Buy Now
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Formal shoes -->
+      <section class="my-5 py-5">
+        <div class="container">
+          <h2 class="section-heading pb-5">Formal Shoes</h2>
+          <div class="row g-4">
+            <div class="col-md-6 col-xl-4">
+              <!-- Card 1 -->
+              <div class="card p-3 rounded-4 shadow-sm border-0">
+                <div class="rounded-4">
+                  <img
+                    src="images/shoe-4.png"
+                    class="card-img-top imagewh"
+                    alt="..."
+                  />
+                </div>
+                <div class="card-body">
+                  <h1 class="card-title fw-bold fs-3">
+                    Prestige High-Cut Leather
+                  </h1>
+                  <p class="card-text pt-3">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center pb-3 pt-3"
+                  >
+                    <h1 class="price">$270</h1>
+                    <button
+                      class="btn btn-primary text-light purple-background px-5 py-3"
+                    >
+                      <i class="bi bi-cart-fill"></i> Buy Now
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-xl-4">
+              <!-- Card 2 -->
+              <div class="card p-3 rounded-4 shadow-sm border-0">
+                <div class="rounded-4">
+                  <img
+                    src="images/shoe-5.png"
+                    class="card-img-top imagewh"
+                    alt="..."
+                  />
+                </div>
+                <div class="card-body">
+                  <h1 class="card-title fw-bold fs-3">Slip-On Formal Shoe</h1>
+                  <p class="card-text pt-3">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center pb-3 pt-3"
+                  >
+                    <h1 class="price">$220</h1>
+                    <button
+                      class="btn btn-primary text-light purple-background px-5 py-3"
+                    >
+                      <i class="bi bi-cart-fill"></i> Buy Now
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-xl-4">
+              <!-- Card 3 -->
+              <div class="card p-3 rounded-4 shadow-sm border-0">
+                <div class="rounded-4">
+                  <img
+                    src="images/shoe-6.png"
+                    class="card-img-top imagewh"
+                    alt="..."
+                  />
+                </div>
+                <div class="card-body">
+                  <h1 class="card-title fw-bold fs-3">Slip-On Formal Shoe</h1>
+                  <p class="card-text pt-3">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <div
+                    class="d-flex justify-content-between align-items-center pt-3 pb-3"
+                  >
+                    <h1 class="price">$238</h1>
+                    <button
+                      class="btn btn-primary text-light purple-background px-5 py-3"
+                    >
+                      <i class="bi bi-cart-fill"></i> Buy Now
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- About Us -->
+      <section>
+        <div class="container my-5 py-5">
+          <div
+            class="row g-5 flex-lg-row-reverse justify-content-center align-items-center"
+          >
+            <div class="col-12 col-lg-6">
+              <div>
+                <img src="icons/illustration.png" alt="" class="img-fluid" />
+              </div>
+            </div>
+            <div class="col-12 col-lg-6">
+              <div class="cards">
+                <!-- card 1 -->
+                <div class="card px-5 border-0 shadow">
+                  <div
+                    class="card-body d-flex flex-column justify-content-center align-items-center flex-lg-row"
+                  >
+                    <img src="icons/home.png" alt="" class="icon-size" />
+                    <div class="text-center text-lg-start ps-4 py-4">
+                      <h3 class="card-title fw-bold fs-4">
+                        Find the Perfect Fit
+                      </h3>
+                      <p class="card-text">
+                        Everybody is different, which is why we offer styles for
+                        every body.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!-- card 2 -->
+                <div class="card px-5 border-0 shadow my-3">
+                  <div
+                    class="card-body d-flex flex-column justify-content-center align-items-center flex-lg-row"
+                  >
+                    <img src="icons/home.png" alt="" class="icon-size" />
+                    <div class="text-center text-lg-start ps-4 py-4">
+                      <h3 class="card-title fw-bold fs-4">
+                        Find the Perfect Fit
+                      </h3>
+                      <p class="card-text">
+                        Everybody is different, which is why we offer styles for
+                        every body.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!-- card 3 -->
+                <div class="card px-5 border-0 shadow">
+                  <div
+                    class="card-body d-flex flex-column justify-content-center align-items-center flex-lg-row"
+                  >
+                    <img src="icons/home.png" alt="" class="icon-size" />
+                    <div class="text-center text-lg-start ps-4 py-4">
+                      <h3 class="card-title fw-bold fs-4">
+                        Find the Perfect Fit
+                      </h3>
+                      <p class="card-text">
+                        Everybody is different, which is why we offer styles for
+                        every body.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Javascript -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
